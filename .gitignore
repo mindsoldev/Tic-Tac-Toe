@@ -5,6 +5,9 @@
 /tmp
 /out-tsc
 /bazel-out
+/.nx/cache
+/orig.git
+
 
 # Node
 /node_modules
