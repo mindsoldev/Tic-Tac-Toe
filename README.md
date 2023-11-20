@@ -1,5 +1,7 @@
 # TicTatToe
 
+Forrás: [Angular for Beginners - Let's build a Tic-Tac-Toe PWA](https://www.youtube.com/watch?v=G0bBLvWXBvc)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
 
 ## Development server
@@ -25,3 +27,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Tudnivalók
+
+Win 10 esetén az NG futtatását engedélyezni kellett:\
+```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser```
+	
+Az új projektet az angulár v17 bug miatt az alábbi paranccsal kell létrehozni.\
+```ng new [projekc_name] --no-standalone```\
+Ekkor az `app.module.ts` is létrejön. 
+
+Az Angular console plugin átalakult Nx console pluginná. Azt kell telepíteni a VS code-ba.
+
+
+Ha hiányzik az eslint…\
+```npm i --save-dev eslint eslint-plugin-jest```
