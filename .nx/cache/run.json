@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run Tic-Tat-Toe:build --configuration=production",
+    "startTime": "2023-11-17T13:43:36.523Z",
+    "endTime": "2023-11-17T13:43:52.165Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "Tic-Tat-Toe:build:production",
+      "target": "build",
+      "projectName": "Tic-Tat-Toe",
+      "hash": "17720458693107094077",
+      "startTime": "2023-11-17T13:43:36.535Z",
+      "endTime": "2023-11-17T13:43:52.164Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
