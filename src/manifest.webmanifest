@@ -1,6 +1,6 @@
 {
-  "name": "Tic-Tat-Toe",
-  "short_name": "Tic-Tat-Toe",
+  "name": "Tic-Tac-Toe",
+  "short_name": "Tic-Tac-Toe",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
