@@ -3,7 +3,7 @@ background: rgb(13, 91, 117);
 }
 .compo {
 color:rgb(21, 9, 192);
-padding:10px;
+padding:7px;
 text-align:center;
 border-style: inset;
 }
@@ -12,4 +12,8 @@ background:rgb(238, 208, 111);
 }
 .grey {
 background:rgb(191, 191, 207);
+}
+.board-column {
+    display: flex; 
+    justify-content: center;
 }
